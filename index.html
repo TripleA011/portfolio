@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/" href="imgs/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <a href="#main">
+            <li class="langu">Main</li>
+          </a>
+          <a href="#projects-container">
+            <li class="langu">Projects</li>
+          </a>
+          <a href="#my-skills">
+            <li class="langu">Skills</li>
+          </a>
+          <a href="#contact">
+            <li class="langu">Contact</li>
+          </a>
+          <div class="btns">
+            <button id="en">EN</button>
+            <button id="ar">AR</button>
+          </div>
+        </ul>
+      </nav>
+    </main>
+
+    <section id="main">
+      <h1 class="langu">I'm Alaa Abou Arraj</h1>
+
+      <p class="web-dev langu">Software Developer</p>
+    </section>
+
+    <section id="projects-container">
+      <h2 class="langu">These are some of my projects</h2>
+
+      <section class="projects">
+        <a href="https://multigames.pythonanywhere.com/" target="_blank">
+          <article class="project multi-games">
+            <img src="imgs/multigames.JPG" />
+            <div class="text">
+              <h4>Multi Games</h4>
+              <div class="desc">
+                This is my final project for the CS50 course, most of its
+                contents are originally written in C (terminal app)
+              </div>
+              <div>Techs: Python, Flask Jinja, JavaScript, SQLALCHEMY</div>
+            </div>
+          </article>
+        </a>
+
+        <div class="bl"></div>
+
+        <a href="https://ourcrypto.pythonanywhere.com/" target="_blank">
+          <article class="project crypto">
+            <img src="imgs/crypto.JPG" />
+            <div class="text">
+              <h4>Crypto</h4>
+              <div class="desc">
+                This project is originally a problem set from the CS50 course
+                for shares, but I took it a bit further by implementing another
+                RestAPI for Crypto and adding some additional features.
+              </div>
+              <div>Techs: Python, Flask Jinja, SQLALCHEMY</div>
+            </div>
+          </article>
+        </a>
+
+        <div class="bl"></div>
+
+        <a href="https://paper-money-invest-app.netlify.app/" target="_blank">
+          <article class="project invest">
+            <img src="imgs/invest.png" />
+            <div class="text">
+              <h4>Invest</h4>
+              <div class="desc">
+                This app is the MERN version of the previous crypto app, which
+                allows the user to have multiple investing sub-accounts, either
+                for shares or for crypto. using two different RestAPIs.
+              </div>
+              <div>Techs: MERN, redux-toolkit</div>
+              <br />
+              <div>
+                -The server might take around 5 mins to respond to the
+                first call-</div>
+
+              <div>-for testing, username: admin, pasword: 12345678-</div>
+
+            </div>
+          </article>
+        </a>
+
+        <div class="bl"></div>
+
+        <a href="https://my-app-our-app.netlify.app" target="_blank">
+          <article class="project crypto">
+            <img src="imgs/myApp.gif" />
+            <div class="text">
+              <h4>My App</h4>
+              <div class="desc">
+                A basic social media app, it was the final project for DCI, and
+                after graduation, I added Socket io, which made the app a real
+                time social media app.
+              </div>
+              <div>Techs: MERN, redux-toolkit, socketio</div>
+              <br />
+              <div>
+                -The server might take around 5 mins to respond to the
+                first call-</div>
+
+              <div>-for testing, username: admin, pasword: 12345678-</div>
+            </div>
+          </article>
+        </a>
+      </section>
+    </section>
+
+    <section id="my-skills">
+      <h2 class="langu">My Skills</h2>
+
+      <div class="skills rotate">
+        <div class="left-side">
+          <div class="skill">
+            <span class="rotate">C</span>
+            <span class="rotate">55%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar c" data-fill-bar="40%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Python</span>
+            <span class="rotate">65%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar py" data-fill-bar="65%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">JavaScript</span>
+            <span class="rotate">85%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar js" data-fill-bar="85%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">HTML</span>
+            <span class="rotate">90%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar html" data-fill-bar="90%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">CSS/SCSS</span>
+            <span class="rotate">80%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar css" data-fill-bar="80%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">React</span>
+            <span class="rotate">80%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar react" data-fill-bar="80%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Redux toolkit</span>
+            <span class="rotate">65%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar redux" data-fill-bar="65%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Node \ Express</span>
+            <span class="rotate">80%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar node" data-fill-bar="80%"></div>
+          </div>
+        </div>
+
+        <div class="right-side">
+          <div class="skill">
+            <span class="rotate">Jinja \ Flask</span>
+            <span class="rotate">65%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar jinja" data-fill-bar="65%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">SQL \ NoSQL</span>
+            <span class="rotate">80%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar sql" data-fill-bar="80%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Linux \ Github</span>
+            <span class="rotate">70%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar linux" data-fill-bar="70%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">D3 \ SVG</span>
+            <span class="rotate">60%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar d3" data-fill-bar="60%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Socket.IO</span>
+            <span class="rotate">60%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar socket" data-fill-bar="60%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Illustrator</span>
+            <span class="rotate">60%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar illustrator" data-fill-bar="60%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Figma</span>
+            <span class="rotate">80%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar figma" data-fill-bar="80%"></div>
+          </div>
+
+          <div class="skill">
+            <span class="rotate">Canva \ Pixlr</span>
+            <span class="rotate">90%</span>
+          </div>
+          <div class="bar">
+            <div class="fill-bar canva" data-fill-bar="90%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer rotate" id="contact">
+      <div class="contacts rotate">
+        <h2 class="langu">Let's work together...</h2>
+        <p class="langu">How do you take your coffee?</p>
+        <div class="contact">
+          <a href="https://github.com/3la2011" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <a href="https://www.linkedin.com/in/alaa-abou-arraj-0b8944230/" target="_blank"><i
+              class="fab fa-linkedin"></i></a> -->
+          <a href="https://codepen.io/triplea011" target="_blank"><i class="fab fa-codepen"></i></a>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="my-info">
+        <div class="cv rotate">
+          <a href="./resumé.html" target="_blank">Resumé</a>
+        </div>
+
+        <div class="name rotate">
+          <span>Number: </span><span>+49 1575-4949-264</span>
+        </div>
+
+        <div class="email rotate">
+          <span>E-Mail: </span><span>Alaa.Abou.dci@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js" language="javascript" type="text/javascript"></script>
+  </body>
+
+</html>
