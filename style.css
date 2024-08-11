@@ -285,6 +285,11 @@ h1 {
 .bar .canva {
   width: 90%;
 }
+
+.bar .blender {
+  width: 30%;
+}
+
 /* end skills style */
 
 .footer {

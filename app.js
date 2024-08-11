@@ -60,7 +60,7 @@ function rotate(x, deg) {
 
 function wakeupTheServer(linksArr) {
   for (let i in linksArr) {
-    fetch(linksArr[i], { mode: "no-cors" }).then((data) =>
+    fetch(linksArr[i], { method: "GET", mode: "no-cors" }).then((data) =>
       console.log(data, "called")
     );
   }
