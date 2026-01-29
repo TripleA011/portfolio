@@ -270,6 +270,10 @@ h1 {
   width: 60%;
 }
 
+.bar .github {
+  width: 70%;
+}
+
 .bar .d3 {
   width: 60%;
 }
@@ -398,5 +402,6 @@ hr {
     transform: rotateY(180deg);
   }
 }
+
 
 
