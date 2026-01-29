@@ -218,77 +218,6 @@ h1 {
   background-color: var(--clr-green);
 }
 
-/* .fill-bar {
-  width: attr(data-fill-bar);
-} */
-
-.bar .c {
-  width: 55%;
-}
-
-.bar .py {
-  width: 65%;
-}
-
-.bar .js {
-  width: 85%;
-}
-
-.bar .html {
-  width: 90%;
-}
-
-.bar .css {
-  width: 80%;
-}
-
-.bar .react {
-  width: 80%;
-}
-
-.bar .redux {
-  width: 65%;
-}
-
-.bar .node {
-  width: 80%;
-}
-
-.bar .socket {
-  width: 60%;
-}
-
-.bar .jinja {
-  width: 65%;
-}
-
-.bar .sql {
-  width: 80%;
-}
-
-.bar .linux {
-  width: 70%;
-}
-
-.bar .d3 {
-  width: 60%;
-}
-
-.bar .illustrator {
-  width: 60%;
-}
-
-.bar .figma {
-  width: 80%;
-}
-
-.bar .canva {
-  width: 90%;
-}
-
-.bar .blender {
-  width: 30%;
-}
 
 /* end skills style */
 
@@ -397,3 +326,4 @@ hr {
     transform: rotateY(180deg);
   }
 }
+
